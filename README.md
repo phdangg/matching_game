@@ -9,8 +9,7 @@ This repository contains the source code for a simple Pikachu matching game impl
 To run the game, simply compile the source code using a C++ compiler and execute the generated executable. Follow the on-screen prompts to navigate through the game.
 
 ```bash
-Copy code
-g++ pikachu_game.cpp -o pikachu_game
+g++ main.cpp algorithm.cpp board.cpp textAnimation.cpp -o pikachu_game
 ./pikachu_game
 ```
 
